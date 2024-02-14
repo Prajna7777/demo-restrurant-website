@@ -1,0 +1,124 @@
+.navbar{
+    background-color: black;
+    font-size:1.2rem;
+}
+.logo{
+    border-radius: 80%;
+    width: 5rem;
+}
+.nav-link{
+    color: white;
+    margin-left: 2rem;
+}
+.container{
+    margin-top: 2rem;
+    h2{
+      text-align: center;
+      margin-bottom: 2rem;
+    }
+}
+.explore-section {
+    padding: 80px 0;
+    /* background-color: #f8f9fa; */
+    background-color: rgb(189, 233, 233);
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+.explore-content {
+    text-align: center;
+}
+.explore-heading {
+    font-size: 36px;
+    margin-bottom: 40px;
+}
+.explore-item {
+    margin-bottom: 30px;
+}
+.explore-item img {
+    max-width: 100%;
+    border-radius: 10px;
+}
+.review-section {
+    padding: 80px 0;
+    background-color: #f8f9fa;
+}
+.review-content {
+    text-align: center;
+}
+.review-heading {
+    font-size: 36px;
+    margin-bottom: 40px;
+}
+.review-card {
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 30px;
+    margin-bottom: 30px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+.review-author {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.review-date {
+    color: #999;
+    margin-bottom: 20px;
+}
+.review-text {
+    font-style: italic;
+    margin-bottom: 0;
+}
+h4{
+    margin-left: 4rem;
+}
+button{
+    background-color:orangered;
+    height: 3rem;
+}
+.box{
+    height: 3rem;
+    box-shadow: 0 4px 8px rgba(201, 10, 10, 0.1);
+    border: none;
+}
+.footer-contact {
+    background-color: #333;
+    color: #fff;
+    padding: 60px 0;
+}
+.footer-content {
+    text-align: center;
+}
+.footer-heading {
+    font-size: 24px;
+    margin-bottom: 40px;
+}
+.contact-form {
+    max-width: 400px;
+    margin: 0 auto;
+}
+.form-group {
+    margin-bottom: 20px;
+}
+.form-group input[type="text"],
+.form-group input[type="email"],
+.form-group textarea {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+}
+.form-group textarea {
+    height: 150px;
+}
+.form-group button {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+}
+.form-group button:hover {
+    background-color: #0056b3;
+}

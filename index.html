@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="./style.css" rel="stylesheet">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body data-bs-spy="scroll" data-bs-target=".navbar" data-bs-offset="100">
+    <header>
+        <nav class="navbar navbar-expand-lg navigation-warp">
+            <div class="container">
+              <a class="navbar-brand" href="#">
+                <!-- <img src="./R pizza.jpg" class="logo"> -->
+              </a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <!-- <span class="navbar-toggler-icon"></span> -->
+              </button>
+              <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+                <ul class="navbar-nav text-center" >
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#home">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#about">About us</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#explore-food">Explore</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#testimonial">Review</a>
+                    <!-- <li><button class="main-btn">Call-Us</button></li> -->
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contact us</a>
+                      </li>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+    </header>
+   <!-- -----------------------  About Section ------------------------------>
+   <div class="container">
+    <h2 >About Our Restrurant</h2>
+    <div class="row">
+        <!-- Image Column -->
+        <div class="col-md-6">
+            <img src="./R pizza.jpg" class="img-fluid" alt="Image">
+        </div>
+        <!-- Text Column -->
+        <div class="col-md-6">
+            <h2>Heading</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed consectetur ligula in neque maximus, non vehicula magna sollicitudin. Nulla facilisi.</p>
+            <p>Etiam consequat magna eu quam eleifend, nec elementum sem dapibus. Mauris vitae pharetra ex.</p>
+        </div>
+    </div>
+</div>
+<!-- ------------Explore section--------------->
+<section class="explore-section">
+    <div class="container">
+        <div class="explore-content">
+            <h2 class="explore-heading">Explore Our Restaurant</h2>
+            <div class="row">
+                <!-- Item 1: Ambiance -->
+                <div class="col-md-4 explore-item">
+                    <img src="./aa.jpg" alt="Ambiance">
+                    <h3>Ambiance</h3>
+                    <p>Experience our cozy and inviting atmosphere.</p>
+                </div>
+                <!-- Item 2: Cuisine -->
+                <div class="col-md-4 explore-item">
+                    <img src="./cc.jpg" alt="Cuisine">
+                    <h3>Cuisine</h3>
+                    <p>Delight in our delicious and diverse menu.</p>
+                </div>
+                <!-- Item 3: Specialties -->
+                <div class="col-md-4 explore-item">
+                    <img src="./aa.jpg" alt="Specialties">
+                    <h3>Specialties</h3>
+                    <p>Indulge in our chef's special dishes.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<div class="row">
+    <!-- Image Column -->
+    <div class="col-md-8">
+    <h4>Signup for email and get a free eCookies with our recipes</h4>
+    </div>
+    <!-- Text Column -->
+    <div class="col-md-4">
+        <form>
+            <input type="text" class="box">
+            <button type="Submit">Subscribe</button>
+        </form>
+    </div>
+</div>
+<!-- ---------------Testimonial secton--------------------->
+<section class="review-section">
+    <div class="container">
+        <div class="review-content">
+            <h2 class="review-heading">Customer Reviews</h2>
+            <div class="row">
+                <!-- Review Card 1 -->
+                <div class="col-md-4">
+                    <div class="review-card">
+                        <p class="review-author">John Doe</p>
+                        <p class="review-date">January 15, 2024</p>
+                        <p class="review-text">"Amazing food and great service. Highly recommended!"</p>
+                    </div>
+                </div>
+                <!-- Review Card 2 -->
+                <div class="col-md-4">
+                    <div class="review-card">
+                        <p class="review-author">Jane Smith</p>
+                        <p class="review-date">February 2, 2024</p>
+                        <p class="review-text">"The best restaurant I've been to in years. Will definitely be back!"</p>
+                    </div>
+                </div>
+                <!-- Review Card 3 -->
+                <div class="col-md-4">
+                    <div class="review-card">
+                        <p class="review-author">David Johnson</p>
+                        <p class="review-date">March 10, 2024</p>
+                        <p class="review-text">"Incredible dining experience. Everything was perfect from start to finish."</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- ------------Footer section---------------->
+<section class="footer-contact">
+    <div class="container">
+        <div class="footer-content">
+            <h2 class="footer-heading">Contact Us</h2>
+            <form class="contact-form">
+                <div class="form-group">
+                    <input type="text" placeholder="Name">
+                </div>
+                <div class="form-group">
+                    <input type="email" placeholder="Email">
+                </div>
+                <div class="form-group">
+                    <textarea placeholder="Message"></textarea>
+                </div>
+                <div class="form-group">
+                    <button type="submit">Send Message</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</section>
+</body>
+</html>
